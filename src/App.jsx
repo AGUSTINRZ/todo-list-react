@@ -44,7 +44,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="bg-[#24273d] p-2 rounded text-white">
+			<div className="bg-[#24273d] p-2 rounded text-white m-2">
 				<h1 className="text-3xl font-semibold mb-2">Todo App</h1>
 				<TaskCreator createTask={createTask} />
 				<TaskList
